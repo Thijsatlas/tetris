@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tetris 5000 Levels</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Tetris 5000 Levels</h1>
+
+<div class="controls">
+  <button id="startBtn">Start</button>
+  <button id="stopBtn">Stop</button>
+  Level: <span id="levelDisplay">1</span>
+  Lines: <span id="linesDisplay">0</span>
+</div>
+
+<div class="achievements-box">
+  <h3>Achievements</h3>
+  <ul id="achList"></ul>
+</div>
+
+<canvas id="game" width="240" height="480"></canvas>
+
+<script src="levels.js"></script>
+<script src="storage.js"></script>
+<script src="achievements.js"></script>
+<script src="tetris.js"></script>
+<script src="game.js"></script>
+
+</body>
+</html>
